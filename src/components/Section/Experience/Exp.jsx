@@ -123,7 +123,7 @@ const Exp = () => {
                 <FaPaperPlane className="experience_details-icons" />
                 <p>
                   Maintained a repository that stores{" "}
-                  <span>serialized and encrypted</span>
+                  <span>serialized and encrypted </span>
                   files
                 </p>
               </div>

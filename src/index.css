@@ -1,0 +1,189 @@
+/* @import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+
+
+
+@font-face {
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "Italianno", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+} */
+
+/* @font-face {
+  font-family: "Ubuntu Mono";
+  src: url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --color-bg: #fff2e4;
+  --color-bg-variant: #f7e1d7;
+  --color-primary: #98ac99;
+  --color-primary-variant: #dedbd2;
+  --color-white: #ffffff;
+  --color-light: #4a5759;
+  --color-light-gray: #7d8faf;;
+  --color-neon: #d88a96;
+  --color-pale: #fae8e0;
+  --shadow-white: 5px 5px 0px #4a5759;
+  --shadow-outline:
+    8px 8px 0 0px var(--color-bg-variant),
+    10px 6px 0 0px #4a5759,
+    6px 10px 0 0px #4a5759,
+    10px 10px 0 0px #4a5759;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-ms: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  min-height: 100%;
+  width: 100vw;
+}
+
+body {
+  font-family: "Monaco";
+  background: var(--color-bg-variant);
+  color: var(--color-white);
+  line-height: 1, 7;
+}
+
+/* ==================== GENERAL STYLES ==================== */
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  color: var(--color-light-gray)
+}
+
+p {
+  color: var(--color-light)
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h5 {
+  font-size: 1rem;
+}
+
+section > h2 {
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary) !important;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  border: 2px solid var(--color-primary);
+  box-shadow: var(--shadow-white);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: var(--color-light);
+  box-shadow: none;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg-variant) !important;
+}
+
+.btn-primary:hover {
+  color: var(--color-primary) !important;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-ms);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}

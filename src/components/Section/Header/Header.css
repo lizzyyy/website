@@ -1,0 +1,77 @@
+header {
+  padding-top: 5rem;
+}
+
+.header_text {
+  margin-top: 10%;
+  padding: 0;
+  margin-bottom: 40%;
+}
+
+.header_text h3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 18px;
+  color: var(--color-light-gray);
+  text-align: start;
+  word-spacing: 3px;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.header_text h1 {
+  font-size: 80px;
+  color: var(--color-neon);
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.header_text span {
+  font-size: 80px;
+  color: #cfb0b5;
+  line-height: 72px;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.cta {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.2rem;
+  /* justify-content: center; */
+}
+
+/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 80vh;
+  }
+
+  .header_text {
+    margin-top: 20%;
+  }
+
+  .header_text h1 {
+    font-size: 60px;
+  }
+
+  .header_text span {
+    font-size: 3rem;
+    line-height: normal;
+  }
+}
+
+/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+}

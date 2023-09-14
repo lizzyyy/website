@@ -18,7 +18,7 @@ const Exp = () => {
           </div>
           <div className="experience_content">
             <div className="experience_image">
-              <img src={require("../../../assets/Pics/circles.png")} />
+              <img src={require("../../../assets/Pics/socket.png")} />
             </div>
             <div className="experience_desc">
               <div className="experience_item">
@@ -68,7 +68,7 @@ const Exp = () => {
           </div>
           <div className="experience_content">
             <div className="experience_image">
-              <img src={require("../../../assets/Pics/socket.png")} />
+              <img src={require("../../../assets/Pics/circles.png")} />
             </div>
             <div className="experience_desc">
               <div className="experience_item">

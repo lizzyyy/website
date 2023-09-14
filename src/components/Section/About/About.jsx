@@ -30,15 +30,15 @@ const About = () => {
               <div class="about_card-body">
                 <div class="about_card-item">
                   <FaMousePointer className="about_icons" />
-                  <small>Python</small>
-                </div>
-                <div class="about_card-item">
-                  <FaMousePointer className="about_icons" />
-                  <small>Java</small>
+                  <small>Python, Java, C. C#, SQL</small>
                 </div>
                 <div class="about_card-item">
                   <FaMousePointer className="about_icons" />
                   <small>HTML, CSS, JavaScript</small>
+                </div>
+                <div class="about_card-item">
+                  <FaMousePointer className="about_icons" />
+                  <small>React, Node.js, .NET, jQuery</small>
                 </div>
                 <div class="about_card-item">
                   <FaMousePointer className="about_icons" />

@@ -12,13 +12,63 @@ const Exp = () => {
         <div>
           <div className="experience_name">
             <h3>
+              Web Development Intern <span>@ Socket Mobile Inc.</span>
+            </h3>
+            <small>May 2023 - current</small>
+          </div>
+          <div className="experience_content">
+            <div className="experience_image">
+              <img src={require("../../../assets/Pics/circles.png")} />
+            </div>
+            <div className="experience_desc">
+              <div className="experience_item">
+                <FaPaperPlane className="experience_details-icons" />
+                <p>
+                  Led redesign of company site across 8 countries, implementing
+                  a <span>modern, intuitive UI</span> with CSHTML, JavaScript,
+                  jQuery.
+                </p>
+              </div>
+              <div className="experience_item">
+                <FaPaperPlane className="experience_details-icons" />
+                <p>
+                  Utilized C# and .NET backend framework to manage data and
+                  facilitate <span>seamless user interaction</span> for less
+                  technical users.
+                </p>
+              </div>
+              <div className="experience_item">
+                <FaPaperPlane className="experience_details-icons" />
+                <p>
+                  Revamped 10+ existing designs from scratch, improving
+                  readability by 40% and implementing modern design principles.
+                </p>
+              </div>
+              <div className="experience_item">
+                <FaPaperPlane className="experience_details-icons" />
+                <p>
+                  Actively participated in bi-weekly meetings and contributed
+                  ideas within a cross-functional team of 12 members.
+                </p>
+              </div>
+              <div className="experience_stacks">
+                <FaPaperPlane className="experience_stacks-icons" />
+                <p>HTML, CSS, JavaScript, jQuery, Figma, .NET, C#</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="experience_name">
+            <h3>
               Software Engineering Intern <span>@ Circles.Life</span>
             </h3>
             <small>May 2022 - Aug 2022</small>
           </div>
           <div className="experience_content">
             <div className="experience_image">
-              <img src={require("../../../assets/Pics/circles.png")} />
+              <img src={require("../../../assets/Pics/socket.png")} />
             </div>
             <div className="experience_desc">
               <div className="experience_item">
@@ -55,48 +105,6 @@ const Exp = () => {
                   HTML, CSS, JavaScript, React.js, Material UI, custom styled
                   components
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="experience_name">
-            <h3>Pacman AI</h3>
-            <small>2022</small>
-          </div>
-          <div className="experience_content">
-            <div className="experience_image">
-              <img src={require("../../../assets/Pics/pacman.png")} />
-            </div>
-            <div className="experience_desc">
-              <div className="experience_item">
-                <FaPaperPlane className="experience_details-icons" />
-                <p>
-                  Designed{" "}
-                  <span>search functions, heuristics and strategies</span> for
-                  Pacman, modeled as an adversarial and stochastic search
-                  problem
-                </p>
-              </div>
-              <div className="experience_item">
-                <FaPaperPlane className="experience_details-icons" />
-                <p>
-                  Incorporated higher order functions to{" "}
-                  <span>create game agents</span> like competitors and enemies,
-                  using minimax and expectimax strategies
-                </p>
-              </div>
-              <div className="experience_item">
-                <FaPaperPlane className="experience_details-icons" />
-                <p>
-                  Developed strategies in evaluation functions to result in a
-                  <span> 100% win rate</span> with >1000 average score
-                </p>
-              </div>
-              <div className="experience_stacks">
-                <FaPaperPlane className="experience_stacks-icons" />
-                <p>Python, search algorithms</p>
               </div>
             </div>
           </div>
